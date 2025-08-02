@@ -14,22 +14,24 @@ body,html{
 }
 
 .computer-screen{
-    width:100%;
-    height:100%;
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
     
 
 }
 
 .overlay_moniter{
     position: absolute;
-    top: 8.40%;
-    left: 15.34%;
-    width: 69.12%;
-    height: 67.98%;
+    top: 23.96%;
+    left: 19.08%;
+    width: 62.05%;
+    height:61.80%;
     background-image: url("../assets/versehunt_assets/pexels-eberhardgross-1421903.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    /* display: none; */
 }
 
 .icon-container{
